@@ -8,7 +8,6 @@
   "keywords": [],
   "scripts": {
     "start": "node ./index.js",
-    "dev": "nodemon",
     "test": "jest && eslint index.js 'test/**.js'",
     "lint": "eslint index.js 'test/**.js' --fix"
   },
@@ -22,7 +21,6 @@
     "eslint-plugin-prettier": "^2.6.2",
     "eslint-plugin-react": "^7.11.1",
     "jest": "^23.5.0",
-    "nodemon": "^1.18.4",
     "prettier": "^1.14.2"
   },
   "engines": {
